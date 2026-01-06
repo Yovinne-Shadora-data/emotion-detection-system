@@ -71,13 +71,13 @@ The plot above shows how the model accuracy improved during training.
 
 # 
 
-# !\[Model Accuracy](accuracy\_plot.png)
+# !\[Model Accuracy](accuracy\_screenshot.png)
 
 # 
 
-# \- \*\*Final Training Accuracy:\*\* ~64.06%  
+# \- \*\*Final Training Accuracy:\*\* ~64.06%
 
-# \- \*\*Final Validation Accuracy:\*\* ~55.93%  
+# \- \*\*Final Validation Accuracy:\*\* ~55.93%
 
 # 
 
