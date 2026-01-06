@@ -8,7 +8,8 @@ import os
 app = Flask(__name__)
 
 # Load the model (make sure the .h5 file is in the same directory or provide correct path)
-model = tf.keras.models.load_model('emotion_detection_model.keras')
+model = tf.keras.models.load_model("emotion_detection_model.h5")
+
 
 # Define emotion labels
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
