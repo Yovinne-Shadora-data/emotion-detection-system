@@ -1,25 +1,21 @@
 # Emotion Detection System
 
-An AI-powered Emotion Detection System built using Python, TensorFlow, and OpenCV.  
-This project detects human emotions in real-time from webcam input or images, and classifies them into categories like **Happy, Sad, Angry, Surprise, Neutral**, etc.
+This project is a **Convolutional Neural Network (CNN) based Emotion Detection System** that can classify human emotions from images into 6 categories: **Happy, Sad, Angry, Surprised, Neutral, and Fear**.
 
----
+## Model Performance
 
-## Features
+The model was trained on a dataset of **~24,590 images** and validated on **~6,347 images**.  
+- **Training Accuracy:** 64%  
+- **Validation Accuracy:** 55-56%  
 
-- Real-time emotion detection using webcam.
-- Emotion classification using a trained TensorFlow model.
-- Supports multiple emotion categories.
-- Easy-to-use interface for testing on new images or live video.
-- Modular Python code for easy integration and improvements.
+### Accuracy Over Epochs
+![Accuracy Plot](accuracy_plot.png)  
+*Figure: Training vs Validation Accuracy over 30 epochs*
 
----
+The plot above shows how the model accuracy improved during training.
 
-## Installation
+## How to Use
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Yovinne-Shadora-data/emotion-detection-system.git
-cd emotion-detection-system
-
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Yovinne-Shadora-data/emotion-detection-system.git
